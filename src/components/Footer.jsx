@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-dark text-light pt-5 pb-4 mt-5 border-top border-secondary">
+    <footer className="bg-dark text-light pt-5 pb-4 mt-1 border-top border-secondary">
       <div className="container">
 
         {/* Top Row */}
@@ -8,7 +8,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="col-md-4 mb-4">
-            <h4 className="fw-bold">Airport Management System</h4>
+            <h4 className="fw-bold">AEROGATE</h4>
             <p className="text-muted mt-2">
               Safe • Secure • Professional<br />
               Managing flights & operations smoothly.
