@@ -20,7 +20,7 @@ export default function Home() {
   const flightData = [
     { id: 1, flightNo: "PK101", from: "Karachi", to: "Lahore", date: "2025-11-17", time: "08:00", price: 500, duration: "2h 30m", airline: "Pakistan Airlines" },
     { id: 2, flightNo: "PK202", from: "Islamabad", to: "Karachi", date: "2025-11-21", time: "12:30", price: 700, duration: "2h 45m", airline: "Air Blue" },
-    { id: 3, flightNo: "PK303", from: "Lahore", to: "Islamabad", date: "2025-11-22", time: "15:00", price: 600, duration: "1h 30m", airline: "Serene Air" },
+    { id: 3, flightNo: "PK303", from: "Lahore", to: "Islamabad", date: "2025-11-30", time: "15:00", price: 600, duration: "1h 30m", airline: "Serene Air" },
     { id: 4, flightNo: "PK404", from: "Karachi", to: "Islamabad", date: "2025-11-23", time: "20:00", price: 550, duration: "2h 40m", airline: "Pakistan Airlines" },
   ];
 

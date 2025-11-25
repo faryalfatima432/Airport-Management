@@ -9,8 +9,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-md-4 mb-4">
             <h4 className="fw-bold">AEROGATE</h4>
-            <p className="text-muted mt-2">
-              Safe • Secure • Professional<br />
+            <p className=" mt-2">
+              Safe<br/> 
+              Secure <br/>
+               Professional<br />
               Managing flights & operations smoothly.
             </p>
           </div>
@@ -19,10 +21,10 @@ export default function Footer() {
           <div className="col-md-2 mb-4">
             <h6 className="fw-bold mb-3">Quick Links</h6>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="#" className="text-light text-decoration-none">Home</a></li>
-              <li className="mb-2"><a href="#" className="text-light text-decoration-none">Flights</a></li>
-              <li className="mb-2"><a href="#" className="text-light text-decoration-none">Booking</a></li>
-              <li><a href="#" className="text-light text-decoration-none">Contact</a></li>
+              <li className="mb-2"><a href="/" className="text-light text-decoration-none">Home</a></li>
+              <li className="mb-2"><a href="/flights" className="text-light text-decoration-none">Flights</a></li>
+              <li className="mb-2"><a href="/contact" className="text-light text-decoration-none">About</a></li>
+              <li><a href="/about" className="text-light text-decoration-none">Contact</a></li>
             </ul>
           </div>
 

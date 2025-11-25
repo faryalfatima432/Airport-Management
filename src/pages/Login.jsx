@@ -102,7 +102,7 @@ export default function Login() {
             <p>
               Don't have an account?{" "}
               <span
-                className="text-primary"
+                className="text-success"
                 style={{ cursor: "pointer" }}
                 onClick={() => navigate("/register")}
               >
