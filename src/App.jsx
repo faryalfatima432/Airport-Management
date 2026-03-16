@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 import FlightDetails from "./pages/FlightDetails";
 import { AuthProvider } from "./contexts/AuthContext";
 
@@ -17,6 +18,7 @@ export default function App() {
         <Navbar />
 
         <Routes>
+          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<Home />} />
           <Route path="/flights" element={<Flights />} />
           <Route path="/flight/:id" element={<FlightDetails />} />
